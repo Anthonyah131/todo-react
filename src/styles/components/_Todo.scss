@@ -1,0 +1,33 @@
+.todoContainer, .todoInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+     
+    .todoInfo{
+        width: 100%;
+        justify-content: flex-start;
+        
+        button{
+            margin-right: 5%;
+        }
+    }
+
+    button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 25px;
+        background-color: transparent;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.todoContainer {
+    margin: 3%;
+}

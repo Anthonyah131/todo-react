@@ -1,0 +1,61 @@
+@import './components/Todo';
+@import './components/TodoFilters';
+@import './components/TodoInput';
+@import './components/Footer';
+@import './components/TodoList';
+
+$colorFondo: rgb(26, 27, 30);
+$colorTexto: aliceblue;
+$ColorContenedor: rgb(38, 39, 44);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    border: none;
+    border-radius: 25px;
+}
+
+body {
+    background-color: $colorFondo;
+    color: $colorTexto
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 90vh;
+    width: 90%;
+    padding: 1%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: $ColorContenedor;
+}
+
+@media (min-width: 600px) {
+    .container {
+      width: 60%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+      width: 50%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .container {
+      width: 40%;
+    }
+}

@@ -1,0 +1,19 @@
+const Footer = () => {
+    return(
+        <footer>
+            <p>Create by Anthony Avila</p>
+            <div class="icon">
+                <a href="https://github.com/Anthonyah131">
+                    <img src="./github.svg" alt="github link"/>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/anthony-%C3%A1vila-hern%C3%A1ndez/">
+                    <img src="/linkedin.svg" alt="linkedin link"/>
+                </a>
+            </div>
+        </footer>
+    )
+}
+
+export default Footer;

@@ -1,0 +1,22 @@
+.FilterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    button {
+        margin: 0px 2%;
+        padding: 5px 3px;
+        background-color: rgba(240, 248, 255, 0.721);
+        color: #26272c;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+
+.filterButtonContainer {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
