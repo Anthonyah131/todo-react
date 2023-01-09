@@ -9,7 +9,7 @@ const Footer = () => {
             </div>
             <div className="icon">
                 <a href="https://www.linkedin.com/in/anthony-%C3%A1vila-hern%C3%A1ndez/">
-                    <img src="./github.svg" alt="linkedin link"/>
+                    <img src="./linkedinn.svg" alt="linkedin link"/>
                 </a>
             </div>
         </footer>
